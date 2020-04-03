@@ -19,7 +19,7 @@ const factorial = (n) => {
     for (let i = zeros; i > 1; i -= 1) {
       current -= 1;
       if (current < 0) {
-        return 1;
+        return 0;
       }
     }
   
